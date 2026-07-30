@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="UTF-8">
+
+  <meta name="author" content="HOUSE CLEANING">
+  <meta name="description" content="地域密着で安心対応。お問い合わせから作業まで自社一貫。">
+  <title>HOUSE CLEANING|お家のお困りごとをまるっと解決</title>
+  <link rel="icon" href="images/favicon.ico">
+
+  <!-- OGPの設定 -->
+  <meta property="og:title" content="HOUSE CLEANING|お家のお困りごとをまるっと解決">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="●●　URL">
+  <meta property="og:image" content="●●　表示画像">
+  <meta property="og:description" content="地域密着で安心対応。お問い合わせから作業まで自社一貫。">
+
+  <!-- CSSの読み込み -->
+  <link rel="stylesheet" type="text/css" href="reset.min.css" media="all">
+  <link rel="stylesheet" type="text/css" href="style.css" media="all">
+
+  <script src="script.js" defer></script>
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+
+  <!-- ==================== Header ==================== -->
+  <header class="l-header">
+
+    <!-- 1段目：ロゴ / 電話番号 + お問い合わせ -->
+    <div class="l-header__top">
+      <h1 class="l-header__logo">
+        <a href="index.html">
+          <img src="images/logo.png" alt="クリーンハウス">
+        </a>
+      </h1>
+
+      <div class="l-header__contact">
+        <a href="tel:0120123456" class="l-header__contact-link img-link">
+          <img src="images/tel_icon.png" alt="">
+          <span>0120-12-3456</span>
+        </a>
+        <a href="#contact" class="l-header__btn">
+          <img src="images/mail.png" alt="">お問い合わせ
+        </a>
+        <button type="button" class="l-header__hamburger" aria-expanded="false" aria-label="メニューを開く">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+
+  </header>
+
+  <nav class="l-header__nav">
+    <div class="l-header__nav-top"></div>
+    <ul class="l-header__nav-list">
+      <li><a href="#" class="l-header__nav-link">TOP</a></li>
+      <li><a href="#news" class="l-header__nav-link">お知らせ</a></li>
+      <li><a href="#about" class="l-header__nav-link">クリーンハウスについて</a></li>
+      <li class="l-header__nav-item--drop">
+        <a href="#service" class="l-header__nav-link">商品・サービス</a>
+        <ul class="l-header__dropdown">
+          <li><a href="#aircon" class="l-header__dropdown-link">エアコンクリーニング</a></li>
+          <li><a href="#house" class="l-header__dropdown-link">ハウスクリーニング</a></li>
+          <li><a href="#garden" class="l-header__dropdown-link">庭木剪定・草刈り</a></li>
+          <li><a href="#welfare" class="l-header__dropdown-link">介護・福祉用具レンタル</a></li>
+          <li><a href="#supplies" class="l-header__dropdown-link">清掃用品</a></li>
+        </ul>
+      </li>
+      <li><a href="#faq" class="l-header__nav-link">FAQ</a></li>
+      <li><a href="#company" class="l-header__nav-link">会社概要</a></li>
+    </ul>
+  </nav>
+
+  <div class="l-header__overlay"></div>
+
+  <main>
+
+    <!-- ==================== FV ==================== -->
+    <section class="fv">
+      <img src="images/fv.jpg" alt="お家のお困りごとをまるっと解決">
+    </section>
+
+    <!-- ==================== Campaign ==================== -->
+    <section class="campaign">
+      <div class="campaign__inner">
+
+        <div class="section-heading">
+          <p class="section-heading__en">CAMPAIGN</p>
+          <h2 class="section-heading__ja"><span class="section-heading__bar"></span>おすすめキャンペーン</h2>
+        </div>
+
+        <div class="campaign__slider-outer">
+          <button class="campaign__btn campaign__btn--prev" aria-label="前のキャンペーンを見る">&#9664;</button>
+          <div class="campaign__slider-wrap">
+            <ul class="campaign__slider">
+              <li class="campaign__item">
+                <a href="#" class="campaign__link img-link">
+                  <img src="images/campaign_banner01.jpg" alt="">
+                  <span class="campaign__overlay"></span>
+                </a>
+              </li>
+              <li class="campaign__item">
+                <a href="#" class="campaign__link img-link">
+                  <img src="images/campaign_banner02.jpg" alt="">
+                  <span class="campaign__overlay"></span>
+                </a>
+              </li>
+              <li class="campaign__item">
+                <a href="#" class="campaign__link img-link">
+                  <img src="images/campaign_banner03.jpg" alt="">
+                  <span class="campaign__overlay"></span>
+                </a>
+              </li>
+              <li class="campaign__item">
+                <a href="#" class="campaign__link img-link">
+                  <img src="images/campaign_banner04.jpg" alt="">
+                  <span class="campaign__overlay"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <button class="campaign__btn campaign__btn--next" aria-label="次のキャンペーンを見る">&#9654;</button>
+        </div>
+
+      </div>
+    </section>
+
+
+    <hr class="section-divider">
+
+    <!-- ==================== News ==================== -->
+    <section class="news" id="news">
+      <div class="news__inner">
+
+        <div class="section-heading">
+          <p class="section-heading__en">NEWS</p>
+          <h2 class="section-heading__ja"><span class="section-heading__bar"></span>お知らせ</h2>
+        </div>
+
+        <ul class="news__list">
+          <li class="news__item">
+            <a href="#" class="news__link">
+              <time class="news__date">2025.07.01</time>
+              <span class="news__tag">お知らせ</span><span class="news__title">おすすめ商品・新商品のご案内</span>
+            </a>
+          </li>
+          <li class="news__item">
+            <a href="#" class="news__link">
+              <time class="news__date">2025.06.15</time>
+              <span class="news__tag">キャンペーン</span><span class="news__title">キャンペーンのご案内</span>
+            </a>
+          </li>
+          <li class="news__item">
+            <a href="#" class="news__link">
+              <time class="news__date">2025.06.01</time>
+              <span class="news__tag">お知らせ</span><span class="news__title">サービスのご案内</span>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- ==================== About ==================== -->
+    <section class="about" id="about">
+      <div class="about__inner">
+
+        <div class="section-heading">
+          <p class="section-heading__en">ABOUT</p>
+          <h2 class="section-heading__ja"><span class="section-heading__bar"></span>クリーンハウスについて</h2>
+        </div>
+
+        <ul class="about__list">
+          <li class="about__item">
+            <img src="images/about_card01.jpg" alt="地域密着・安心対応">
+            <div class="about__item-body">
+              <h3 class="about__item-title">地域密着・安心対応</h3>
+              <p class="about__item-text">説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文。</p>
+            </div>
+          </li>
+          <li class="about__item">
+            <img src="images/about_card02.jpg" alt="自社一貫・幅広いサービス">
+            <div class="about__item-body">
+              <h3 class="about__item-title">自社一貫・幅広いサービス</h3>
+              <p class="about__item-text">説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文。</p>
+            </div>
+          </li>
+          <li class="about__item">
+            <img src="images/about_card03.jpg" alt="技術力・社員研修">
+            <div class="about__item-body">
+              <h3 class="about__item-title">技術力・社員研修</h3>
+              <p class="about__item-text">説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文。</p>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- ==================== Service ==================== -->
+    <section class="service-top" id="service">
+      <div class="service-top__inner">
+        <div class="section-heading">
+          <p class="section-heading__en">SERVICE MENU</p>
+          <h2 class="section-heading__ja"><span class="section-heading__bar"></span>商品・サービス</h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- エアコンクリーニング -->
+    <section class="service" id="aircon">
+      <div class="service__inner">
+        <div class="service__heading">
+          <h3 class="service__title"><span>エアコンクリーニング</span></h3>
+        </div>
+        <div class="service__body">
+          <div class="service__text">
+            <p class="service__desc">ご家庭から業務用まで対応可能なエアコンクリーニング。内部に蓄積したカビやホコリを分解洗浄し、空気を清潔に整えます。</p>
+            <div class="service__btn-wrap">
+              <a href="#" class="service__btn">もっと見る</a>
+              <a href="#" class="service__btn">エアコンクリーニング施工事例</a>
+            </div>
+          </div>
+          <div class="service__main-img">
+            <img src="images/aircon_main.jpg" alt="エアコンクリーニング">
+          </div>
+        </div>
+        <ul class="service__detail-list">
+          <li class="service__detail-item">
+            <img src="images/aircon_detail01.jpg" alt="サービスの詳細1">
+            <p>サービスの詳細1</p>
+          </li>
+          <li class="service__detail-item">
+            <img src="images/aircon_detail02.jpg" alt="サービスの詳細2">
+            <p>サービスの詳細2</p>
+          </li>
+          <li class="service__detail-item">
+            <img src="images/aircon_detail03.jpg" alt="サービスの詳細3">
+            <p>サービスの詳細3</p>
+          </li>
+          <li class="service__detail-item">
+            <img src="images/aircon_detail04.jpg" alt="サービスの詳細4">
+            <p>サービスの詳細4</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ハウスクリーニング -->
+    <section class="service" id="house">
+      <div class="service__inner">
+        <div class="service__heading">
+          <h3 class="service__title"><span>ハウスクリーニング</span></h3>
+        </div>
+        <div class="service__body">
+          <div class="service__text">
+            <p class="service__desc">キッチン・浴室・トイレなど、水回りを中心にプロの技術で徹底掃除。汚れが落ちない箇所や頑固な汚れも、丁寧に仕上げ、快適で清潔な住まい環境を整えます。</p>
+            <div class="service__btn-wrap">
+              <a href="#" class="service__btn">もっと見る</a>
+              <a href="#" class="service__btn">ハウスクリーニング施工事例</a>
+            </div>
+          </div>
+          <div class="service__main-img">
+            <img src="images/house_main.jpg" alt="ハウスクリーニング">
+          </div>
+        </div>
+        <ul class="service__detail-list">
+          <li class="service__detail-item">
+            <img src="images/house_detail01.jpg" alt="サービスの詳細1">
+            <p>サービスの詳細1</p>
+          </li>
+          <li class="service__detail-item">
+            <img src="images/house_detail02.jpg" alt="サービスの詳細2">
+            <p>サービスの詳細2</p>
+          </li>
+          <li class="service__detail-item">
+            <img src="images/house_detail03.jpg" alt="サービスの詳細3">
+            <p>サービスの詳細3</p>
+          </li>
+          <li class="service__detail-item">
+            <img src="images/house_detail04.jpg" alt="サービスの詳細4">
+            <p>サービスの詳細4</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 庭木剪定・草刈り -->
+    <section class="service" id="garden">
+      <div class="service__inner">
+        <div class="service__heading">
+          <h3 class="service__title"><span>庭木剪定・草刈り</span></h3>
+        </div>
+        <div class="service__body">
+          <div class="service__text">
+            <p class="service__desc">伸びすぎた枝木の剪定や草刈り、季節に合わせた手入れまで対応。美観の維持はもちろん、防犯対策にも配慮し、安心できる庭づくりをサポートします。</p>
+            <div class="service__btn-wrap">
+              <a href="#" class="service__btn">もっと見る</a>
+              <a href="#" class="service__btn">庭木剪定・草刈り施工事例</a>
+            </div>
+          </div>
+          <div class="service__main-img">
+            <img src="images/garden_main.jpg" alt="庭木剪定・草刈り">
+          </div>
+        </div>
+        <ul class="service__detail-list">
+          <li class="service__detail-item">
+            <img src="images/garden_detail01.jpg" alt="サービスの詳細1">
+            <p>サービスの詳細1</p>
+          </li>
+          <li class="service__detail-item">
+            <img src="images/garden_detail02.jpg" alt="サービスの詳細2">
+            <p>サービスの詳細2</p>
+          </li>
+          <li class="service__detail-item">
+            <img src="images/garden_detail03.jpg" alt="サービスの詳細3">
+            <p>サービスの詳細3</p>
+          </li>
+          <li class="service__detail-item">
+            <img src="images/garden_detail04.jpg" alt="サービスの詳細4">
+            <p>サービスの詳細4</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 介護・福祉用具レンタル -->
+    <section class="service" id="welfare">
+      <div class="service__inner">
+        <div class="service__heading">
+          <h3 class="service__title"><span>介護・福祉用具レンタル</span></h3>
+        </div>
+        <div class="service__body">
+          <div class="service__text">
+            <p class="service__desc">介護ベッドや車いすなどの福祉用具レンタルを通して、ご利用者様とご家族の安心な暮らしを支えます。専門スタッフが身体状況や住環境を確認し、最適な用具をご提案。</p>
+            <a href="#" class="service__btn">介護・福祉用具レンタル施工事例</a>
+          </div>
+          <div class="service__main-img service__main-img--sq">
+            <img src="images/welfare_main.jpg" alt="介護・福祉用具レンタル">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 清掃用品 -->
+    <section class="service" id="supplies">
+      <div class="service__inner">
+        <div class="service__heading">
+          <h3 class="service__title"><span>清掃用品</span></h3>
+        </div>
+        <div class="service__body">
+          <div class="service__text">
+            <p class="service__desc">マット・モップ・空気清浄関連商品など、日常を快適に保つ清掃用品を取り扱っています。定期交換サービスにより、常に清潔な状態を維持。ご家庭からオフィスまで、用途に合わせた最適な商品をご提案いたします。</p>
+            <a href="#" class="service__btn">清掃用品施工事例</a>
+          </div>
+          <div class="service__main-img service__main-img--sq">
+            <img src="images/supplies_main.jpg" alt="清掃用品">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- ==================== FAQ ==================== -->
+    <section class="faq" id="faq">
+      <div class="faq__inner">
+
+        <div class="section-heading">
+          <p class="section-heading__en">FAQ</p>
+          <h2 class="section-heading__ja"><span class="section-heading__bar"></span>よくあるご質問</h2>
+        </div>
+
+        <ul class="faq__list">
+
+          <li class="faq__item">
+            <button type="button" class="faq__question" aria-expanded="false">
+              <span>どんな内容でも相談できますか？</span>
+              <span class="faq__icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq__answer" hidden>
+              <p>はい、まずはお気軽にご相談ください。「これはお願いできるの？」という小さなお悩みでも大歓迎です。エアコンの異臭・水回りのカビ・庭木の繁茂など、過去にも「相談してよかった」というお声を多くいただいています。<br><a href="#" class="faq__link">施工事例はこちら →</a></p>
+            </div>
+          </li>
+
+          <li class="faq__item">
+            <button type="button" class="faq__question" aria-expanded="false">
+              <span>料金はどのくらいかかりますか？</span>
+              <span class="faq__icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq__answer" hidden>
+              <p>サービス内容や作業範囲によって異なりますが、お見積りは無料です。まずはお気軽にご相談ください。</p>
+            </div>
+          </li>
+
+          <li class="faq__item">
+            <button type="button" class="faq__question" aria-expanded="false">
+              <span>支払い方法を教えてください。</span>
+              <span class="faq__icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq__answer" hidden>
+              <p>現金のほか、クレジットカードや銀行振込に対応しております。詳細はお問い合わせ時にご確認ください。</p>
+            </div>
+          </li>
+
+          <li class="faq__item">
+            <button type="button" class="faq__question" aria-expanded="false">
+              <span>当日や急ぎの依頼は対応できますか？</span>
+              <span class="faq__icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq__answer" hidden>
+              <p>最短即日対応が可能です。まずはお電話またはLINEにてご相談ください。</p>
+            </div>
+          </li>
+
+          <li class="faq__item">
+            <button type="button" class="faq__question" aria-expanded="false">
+              <span>作業中に自宅にいる必要はありますか？</span>
+              <span class="faq__icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq__answer" hidden>
+              <p>作業開始時と終了時のご在宅をお願いしております。作業中の外出については事前にご相談ください。</p>
+            </div>
+          </li>
+
+          <li class="faq__item">
+            <button type="button" class="faq__question" aria-expanded="false">
+              <span>作業後に不具合があった場合はどうなりますか？</span>
+              <span class="faq__icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq__answer" hidden>
+              <p>作業完了後も安心してご利用いただけるよう、一定期間のアフターフォローを行っております。お気軽にご連絡ください。</p>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- ==================== Contact ==================== -->
+    <section class="contact" id="contact">
+      <div class="contact__inner">
+
+        <div class="section-heading">
+          <p class="section-heading__en">CONTACT</p>
+          <h2 class="section-heading__ja"><span class="section-heading__bar"></span>お問い合わせ</h2>
+        </div>
+
+        <div class="contact__cta">
+          <p class="contact__cta-title">最短即日、スピード見積もり！</p>
+          <p class="contact__cta-text">ご相談・お見積りは全て無料です。<br>お電話、LINEでのお問い合わせも可能です。</p>
+          <div class="contact__cta-links">
+            <a href="tel:0120123456" class="contact__cta-link img-link">
+              <img src="images/tel_icon.png" alt="">
+              <span>0120-12-3456</span>
+            </a>
+            <a href="#" class="contact__cta-link img-link">
+              <img src="images/LINE_Brand_icon.png" alt="">
+              <span>公式LINE</span>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact__form" action="#" method="post">
+          <dl class="contact__form-list">
+
+            <div class="contact__form-row">
+              <dt class="contact__form-label">お名前<span class="contact__required">*</span></dt>
+              <dd class="contact__form-input">
+                <input type="text" name="name" placeholder="例）山田 太郎" required>
+              </dd>
+            </div>
+
+            <div class="contact__form-row">
+              <dt class="contact__form-label">企業名</dt>
+              <dd class="contact__form-input">
+                <input type="text" name="company" placeholder="例）株式会社クリーンハウス">
+              </dd>
+            </div>
+
+            <div class="contact__form-row">
+              <dt class="contact__form-label">メールアドレス<span class="contact__required">*</span></dt>
+              <dd class="contact__form-input">
+                <input type="email" name="email" placeholder="例）info@example.com" required>
+              </dd>
+            </div>
+
+            <div class="contact__form-row">
+              <dt class="contact__form-label">電話番号<span class="contact__required">*</span></dt>
+              <dd class="contact__form-input">
+                <input type="tel" name="tel" placeholder="例）0120-12-3456" required>
+              </dd>
+            </div>
+
+            <div class="contact__form-row">
+              <dt class="contact__form-label">住所<span class="contact__required">*</span></dt>
+              <dd class="contact__form-input">
+                <input type="text" name="address" placeholder="例）北海道札幌市〇〇区〇〇" required>
+              </dd>
+            </div>
+
+            <div class="contact__form-row">
+              <dt class="contact__form-label">お問い合わせ内容<span class="contact__required">*</span></dt>
+              <dd class="contact__form-input">
+                <select name="type" required>
+                  <option value="" disabled selected>選択してください</option>
+                  <option value="consultation">ご相談</option>
+                  <option value="estimate">お見積もり</option>
+                  <option value="other">その他</option>
+                </select>
+              </dd>
+            </div>
+
+            <div class="contact__form-row">
+              <dt class="contact__form-label">メッセージ<span class="contact__required">*</span></dt>
+              <dd class="contact__form-input">
+                <textarea name="message" rows="6" placeholder="ご相談内容をご記入ください" required></textarea>
+              </dd>
+            </div>
+
+          </dl>
+
+          <p class="contact__note"><span class="contact__required">*</span>は必須項目です</p>
+
+          <div class="contact__submit">
+            <button type="submit" class="contact__submit-btn">送信する</button>
+          </div>
+
+        </form>
+
+      </div>
+    </section>
+
+    <!-- ここからセクションを順次追加 -->
+  </main>
+
+    <hr class="section-divider">
+
+    <!-- ==================== Company ==================== -->
+    <section class="company" id="company">
+      <div class="company__bg">
+        <img src="images/entrance.jpg" alt="">
+      </div>
+      <div class="company__band">
+        <div class="company__inner">
+
+          <div class="company__card">
+            <div class="section-heading">
+              <p class="section-heading__en">COMPANY</p>
+              <h2 class="section-heading__ja"><span class="section-heading__bar"></span>会社概要</h2>
+            </div>
+
+            <dl class="company__table">
+              <div class="company__row">
+                <dt>会社名</dt>
+                <dd>HOUSE CLEAN 株式会社</dd>
+              </div>
+              <div class="company__row">
+                <dt>住所</dt>
+                <dd>東京都○○○○</dd>
+              </div>
+              <div class="company__row">
+                <dt>電話番号</dt>
+                <dd>0120-12-3456</dd>
+              </div>
+              <div class="company__row">
+                <dt>お電話受付時間</dt>
+                <dd>8:00〜17:00（平日）</dd>
+              </div>
+              <div class="company__row">
+                <dt>作業対応時間</dt>
+                <dd>9:00〜19:00</dd>
+              </div>
+              <div class="company__row">
+                <dt>定休日</dt>
+                <dd>土日祝（作業は年末年始・お盆を除き対応）</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="company__map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.827853357024!2d139.75454931525865!3d35.68124398019427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2z5qCq5byP5Lya56S-!5e0!3m2!1sja!2sjp!4v1620000000000!5m2!1sja!2sjp"
+              width="100%"
+              height="100%"
+              style="border: 0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- ==================== Footer ==================== -->
+  <footer class="l-footer">
+    <div class="l-footer__inner">
+
+      <div class="l-footer__logo">
+        <a href="index.html">
+          <img src="images/logo.png" alt="クリーンハウス">
+        </a>
+        <div class="l-footer__sns">
+          <a href="#" class="l-footer__sns-link" target="_blank" rel="noopener" aria-label="LINE">
+            <img src="images/LINE_Brand_icon.png" alt="LINE">
+          </a>
+          <a href="#" class="l-footer__sns-link" target="_blank" rel="noopener" aria-label="Instagram">
+            <img src="images/Instagram_Glyph_Gradient.png" alt="Instagram">
+          </a>
+          <a href="#" class="l-footer__sns-link" target="_blank" rel="noopener" aria-label="Facebook">
+            <img src="images/Facebook_Logo_Primary.png" alt="Facebook">
+          </a>
+          <a href="#" class="l-footer__sns-link" target="_blank" rel="noopener" aria-label="X">
+            <img src="images/logo-black.png" alt="X">
+          </a>
+        </div>
+      </div>
+
+      <nav class="l-footer__nav">
+        <ul class="l-footer__nav-list">
+
+          <!-- 列1 -->
+          <li class="l-footer__nav-item">
+            <a href="#news" class="l-footer__nav-link">お知らせ</a>
+            <a href="#about" class="l-footer__nav-link">クリーンハウスについて</a>
+          </li>
+
+          <!-- 列2 -->
+          <li class="l-footer__nav-item">
+            <a href="#service" class="l-footer__nav-link">商品・サービス</a>
+            <ul class="l-footer__sub-list">
+              <li><a href="#aircon" class="l-footer__sub-link">エアコンクリーニング</a></li>
+              <li><a href="#house" class="l-footer__sub-link">ハウスクリーニング</a></li>
+              <li><a href="#garden" class="l-footer__sub-link">庭木剪定・草刈り</a></li>
+              <li><a href="#welfare" class="l-footer__sub-link">介護・福祉用具レンタル</a></li>
+              <li><a href="#supplies" class="l-footer__sub-link">清掃用品</a></li>
+              <li><a href="#" class="l-footer__sub-link">施工事例</a></li>
+            </ul>
+          </li>
+
+          <!-- 列3 -->
+          <li class="l-footer__nav-item">
+            <a href="#faq" class="l-footer__nav-link">FAQ</a>
+            <a href="#company" class="l-footer__nav-link">会社概要</a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+
+    <p class="l-footer__copy">&copy; 2025 HOUSE CLEAN All Rights Reserved.</p>
+  </footer>
+
+  <!-- ==================== Floating Buttons ==================== -->
+  <div class="floating-btns">
+    <a href="tel:0120123456" class="floating-btns__tel">
+      <img src="images/tel_icon.png" alt="電話">
+    </a>
+    <a href="#contact" class="floating-btns__contact">
+      <img src="images/mail.png" alt="">お問い合わせ
+    </a>
+  </div>
+
+</body>
+</html>
